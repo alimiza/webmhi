@@ -88,23 +88,20 @@
                 </nav>
 
                 <!-- Header CTA Buttons -->
-                <div class="hidden sm:flex items-center gap-3">
+                <div class="hidden lg:flex items-center gap-3">
                     <a href="https://donasi.markazhuffadzindonesia.com/" target="_blank" class="px-4 py-2.5 rounded-xl bg-gold-500 hover:bg-gold-600 text-brand-950 font-bold text-xs sm:text-sm shadow-sm hover:shadow transition-all flex items-center gap-2">
                         <i class="fa-solid fa-heart"></i>
                         <span>Donasi</span>
                     </a>
                     <a href="https://s.id/SPMB-JenjangSD-MarkazHuffadzIndonesia" class="px-4 py-2.5 rounded-xl bg-brand-800 hover:bg-brand-900 text-white font-bold text-xs sm:text-sm shadow-md hover:shadow-lg transition-all">
-                        SPMB Jenjang SD - Primary School
+                        SPMB SD
                     </a>
                     <a href="https://s.id/SPMB-JenjangSMP-MHI" class="px-4 py-2.5 rounded-xl bg-brand-800 hover:bg-brand-900 text-white font-bold text-xs sm:text-sm shadow-md hover:shadow-lg transition-all">
-                        SPMB Jenjang SMP - Middle School
+                        SPMB SMP
                     </a>
                 </div>
 
                 <!-- Mobile Hamburger Button -->
-                <!-- <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-lg text-slate-700 hover:bg-slate-100 focus:outline-none" aria-label="Toggle Navigation">
-                    <i class="fa-solid fa-bars text-2xl" id="menu-icon"></i>
-                </button> -->
                 <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-lg text-slate-700 hover:bg-slate-100 focus:outline-none" aria-label="Toggle Navigation">
                     <svg id="icon-hamburger" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
@@ -126,12 +123,14 @@
                 <a href="https://donasi.markazhuffadzindonesia.com/" target="_blank" class="w-full text-center py-3 bg-gold-500 text-brand-950 font-bold rounded-xl shadow">
                     <i class="fa-solid fa-heart mr-1"></i> Donasi
                 </a>
-                <a href="https://s.id/SPMB-JenjangSD-MarkazHuffadzIndonesia" class="w-full text-center py-3 bg-brand-800 text-white font-bold rounded-xl shadow">
-                    SPMB Jenjang SD - Primary School
-                </a>
-                <a href="https://s.id/SPMB-JenjangSMP-MHI" class="w-full text-center py-3 bg-brand-800 text-white font-bold rounded-xl shadow">
-                    SPMB Jenjang SMP - Middle School
-                </a>
+                <div class="flex w-full sm:w-auto gap-3">
+                    <a href="https://s.id/SPMB-JenjangSD-MarkazHuffadzIndonesia" class="w-full text-center py-3 bg-brand-800 text-white font-bold rounded-xl shadow">
+                        SPMB SD
+                    </a>
+                    <a href="https://s.id/SPMB-JenjangSMP-MHI" class="w-full text-center py-3 bg-brand-800 text-white font-bold rounded-xl shadow">
+                        SPMB SMP
+                    </a>
+                </div>
             </div>
         </div>
     </header>
@@ -165,15 +164,17 @@
                     </p>
 
                     <!-- CTA Action Grid -->
-                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-                        <a href="https://s.id/SPMB-JenjangSD-MarkazHuffadzIndonesia" class="w-full sm:w-auto px-8 py-4 bg-brand-500 hover:bg-brand-600 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all text-center flex items-center justify-center gap-3 text-sm">
-                            <span>SPMB Jenjang SD <div>- Primary School</div></span>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <a href="https://s.id/SPMB-JenjangSMP-MHI" class="w-full sm:w-auto px-8 py-4 bg-brand-500 hover:bg-brand-600 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all text-center flex items-center justify-center gap-3 text-sm">
-                            <span>SPMB Jenjang SMP <div>- Middle School</div></span>
-                            <i class="fa-solid fa-arrow-right"></i>
-                        </a>
+                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 w-full">
+                        <div class="flex gap-3 w-full sm:w-auto">
+                            <a href="https://s.id/SPMB-JenjangSD-MarkazHuffadzIndonesia" class="w-full sm:w-auto px-8 py-4 bg-brand-500 hover:bg-brand-600 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all text-center flex-1 items-center justify-center gap-3 text-sm whitespace-nowrap">
+                                <span>SPMB SD</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                            <a href="https://s.id/SPMB-JenjangSMP-MHI" class="w-full sm:w-auto px-8 py-4 bg-brand-500 hover:bg-brand-600 text-white font-bold rounded-xl shadow-lg hover:shadow-xl transition-all text-center flex-1 items-center justify-center gap-3 text-sm whitespace-nowrap">
+                                <span>SPMB SMP</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
                         <a href="https://donasi.markazhuffadzindonesia.com/" target="_blank" class="w-full sm:w-auto px-8 py-4 bg-gold-500 hover:bg-gold-600 text-brand-950 font-bold rounded-xl shadow-lg hover:shadow-xl transition-all text-center flex items-center justify-center gap-3">
                             <i class="fa-solid fa-hand-holding-dollar"></i>
                             <span>Donasi</span>
@@ -771,8 +772,8 @@
                         <li><a href="#program" class="hover:text-white transition-colors">Primary &amp; Kurikulum</a></li>
                         <li><a href="/unit-pendidikan" class="hover:text-white transition-colors">Unit Pendidikan</a></li>
                         <li><a href="/berita" class="hover:text-white transition-colors">Berita</a></li>
-                        <li><a href="https://s.id/SPMB-JenjangSD-MarkazHuffadzIndonesia" class="hover:text-white transition-colors">SPMB Jenjang SD - Primary School</a></li>
-                        <li><a href="https://s.id/SPMB-JenjangSMP-MHI" class="hover:text-white transition-colors">SPMB Jenjang SMP - Middle School</a></li>
+                        <li><a href="https://s.id/SPMB-JenjangSD-MarkazHuffadzIndonesia" class="hover:text-white transition-colors">SPMB SD</a></li>
+                        <li><a href="https://s.id/SPMB-JenjangSMP-MHI" class="hover:text-white transition-colors">SPMB SMP</a></li>
                     </ul>
                 </div>
 
